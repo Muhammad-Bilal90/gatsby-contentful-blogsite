@@ -1,20 +1,26 @@
 // require("dotenv").config()
-const dotenv = require("dotenv");
+// const dotenv = require("dotenv");
 
-if (process.env.NODE_ENV !== "production") {
-  dotenv.config();
-}
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
 
 module.exports = {
   siteMetadata:{
-    title: 'Gatsby Contentgul Blogs'
+    title: 'Gatsby Contentful Blogs'
   },
 
   plugins: [
     `gatsby-plugin-image`,
-    `gatsby-plugin-sharp`,
     `gatsby-plugin-material-ui`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        icon: 'src/images/icon.png',
+      },
+    },
     {
       resolve: `gatsby-source-contentful`,
       options: {

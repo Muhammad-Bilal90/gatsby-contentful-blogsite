@@ -16,8 +16,33 @@
   },
   "license": "0BSD",
   "dependencies": {
-    "gatsby": "^4.21.1",
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@mui/icons-material": "^5.10.2",
+    "@mui/material": "^5.10.2",
+    "@reduxjs/toolkit": "^1.8.5",
+    "dotenv": "^16.0.1",
+    "firebase": "^9.9.4",
+    "formik": "^2.2.9",
+    "gastby": "^1.0.1",
+    "gatsby": "^4.22.1",
+    "gatsby-plugin-firebase-v9.0": "^1.0.3",
+    "gatsby-plugin-image": "^2.21.0",
+    "gatsby-plugin-material-ui": "^4.1.0",
+    "gatsby-plugin-react-helmet": "^5.22.0",
+    "gatsby-plugin-sharp": "^4.22.0",
+    "gatsby-source-contentful": "^7.19.1",
+    "gatsby-transformer-remark": "^5.21.0",
+    "install": "^0.13.0",
+    "moment": "^2.29.4",
+    "npm": "^8.18.0",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "react-helmet": "^6.1.0",
+    "react-redux": "^8.0.2",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@types/react-helmet": "^6.1.5"
   }
 }

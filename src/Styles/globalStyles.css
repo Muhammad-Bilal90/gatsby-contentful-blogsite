@@ -1,0 +1,263 @@
+body{
+    margin: 0 !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+    padding: 0 !important;
+}
+
+.header{
+    background-color: rebeccapurple !important;
+    position: inherit !important;
+    padding: 0 !important;
+}
+
+.text {
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+
+.blogContentContainer{
+    display: flex !important;
+    flex-direction: row !important;
+    width: 100% !important;
+    flex-wrap: wrap-reverse !important;
+    justify-content: space-around !important;
+    align-content: space-around !important;
+    height: 100% !important;
+}
+.blogTextContentContainer{
+    width: 45vmax !important;
+    flex-grow: 1 !important;
+    padding:2vmax !important;
+    background-color: rgba(184, 209, 232,0.43) !important;
+    margin-bottom: 1vmax !important;
+    margin-top: 1vmax !important;
+   
+}
+.blogHeading{
+    text-align: center !important;
+    font-weight: bold !important;
+    font-size: 3vmax !important;
+    text-overflow: ellipsis !important;
+    overflow: hidden !important;
+    padding-bottom:1vmax !important;
+    color:  rgb(255,67,67) !important;
+}
+.blogImage{
+    width: 30vmax !important;
+    margin-top: 1vmax !important;
+    margin-bottom: 1vmax !important;
+    
+    
+}
+
+.blogSummary p{
+    text-align: center !important;
+    overflow: auto !important;
+    text-overflow: ellipsis !important;
+    max-height: 9vmax !important;
+    font-size: 1vmax !important;
+    color: white !important;
+   
+}
+
+.blogDate{
+    text-align: center !important;
+    margin-top: 0 !important;
+    font-size:1.5vmax !important;
+    margin-bottom: 2vmax !important;
+    text-decoration: underline !important;
+    color: black !important;
+    
+}
+
+.jumbotorn{
+    padding: 0 !important;
+    padding-left: 1vmax !important;
+    padding-right: 1vmax !important;
+    background-color: black !important;
+}
+
+.link{
+    text-decoration: none !important;
+}
+
+.link:hover {
+    text-decoration: none !important;
+
+}
+
+.link:hover .blogContentContainer{
+    transform: scale(0.99) !important;
+}
+
+.pageLayout{
+    margin-top: 1vmax !important;
+}
+
+.trend_box{
+    height: 100% !important;
+    width: 100% !important;
+    padding-bottom: 48px !important;
+}
+
+.trending_box{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    flex: 1 1 auto !important;
+}
+
+.area_for_text{
+    margin-right: 20px !important;
+    min-width: 0 !important;
+    width: 100% !important;
+}
+
+.author__area{
+    /* padding-bottom: 8px; */
+    padding: 0 !important;
+}
+
+.author__name{
+    font-size: 12px !important;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    color: #757575 !important;
+    text-transform: capitalize !important;
+}
+
+.heading__title{
+    font-weight: 700 !important;
+    -webkit-line-clamp: 2 !important;
+    -webkit-box-orient: vertical !important;
+    display: -webkit-box !important;
+    text-overflow: ellipsis !important;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+
+.time_date_area{
+    align-items: baseline !important;
+    display: flex !important;
+    padding-top: 4px !important;
+    justify-content: space-between !important;
+}
+
+.time_and_read{
+    display: flex !important;
+    min-width: 0 !important;
+}
+
+.timeanddate{
+    white-space: nowrap !important;
+    font-size: 13px !important;
+    color: rgba(117, 117, 117, 1) !important;
+    line-height: 20px !important;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-weight: 400 !important;
+}
+
+.dot__area{
+    top: -1px !important;
+    padding-right: 6px !important;
+    padding-left: 6px !important;
+    position: relative !important;
+    height: 100% !important;
+}
+
+.dot{
+    font-size: 14px !important;
+    color: rgba(117, 117, 117, 1) !important;
+    font-weight: 400 !important;
+    line-height: 20px !important;
+}
+
+.featured__image{
+    width: 150px !important;
+    height: 113px !important;
+}
+
+.formFields {
+    width: 100% !important;
+    margin-top: 1rem !important
+}
+
+/* .formButtons{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.shade__for_Hide{
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 1)) !important;
+    height: 250px !important;
+    margin-top: -240px !important;
+    position: relative !important;
+    display: block !important;
+    width: 100% !important;
+}
+
+.blogContentContainer{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.blogContentDiv{
+    margin-bottom: -0.46em !important;
+    font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif !important;
+    letter-spacing: -0.004em !important;
+    line-height: 1.58 !important;
+    color: rgba(41, 41, 41, 1) !important;
+    font-style: normal !important;
+    word-break: break-word !important;
+    font-weight: 400 !important;
+}
+
+.msgContainer{
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.msgContainerChild{
+    display: grid !important;
+    margin-bottom: 2rem !important;
+}
+
+.msg{
+    font-weight: bold !important;
+    font-size: 1.5rem !important;
+}
+
+.headerButton{
+    color: white !important;
+    border: 1px solid white !important;
+}
+
+.loginSignupButton{
+    margin-top: 1rem !important;
+    width: 100% !important;
+    padding: 1rem !important;
+    border: none !important;
+    font-weight: bold !important;
+    font-size: 1rem !important;
+    cursor: pointer !important;
+}
+
+.modalCreateButton{
+    display: flex !important;
+    justify-content: center !important;
+    border-top: 1px solid #F0F0F0 !important;
+}
+
+.footer{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 50px !important;
+    margin-top: 25px !important;
+    background-color: rebeccapurple !important;
+    color: white !important;
+}
